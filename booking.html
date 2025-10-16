@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking | La Trobe University Restaurant</title>
+  <meta name="description" content="Reserve a table at La Trobe University Restaurant.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav" role="navigation" aria-label="Main">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.svg" alt="La Trobe University Restaurant logo" width="120" height="36">
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="booking.html" aria-current="page">Booking</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Booking</h1>
+    <p class="lead">Use the form below to request a reservation. This is a non-functional example for layout only.</p>
+    <form action="#" method="get">
+      <div>
+        <label for="fullname">Full Name</label>
+        <input id="fullname" name="fullname" type="text" required>
+      </div>
+      <div class="grid-2">
+        <div>
+          <label for="date">Date</label>
+          <input id="date" name="date" type="date" required>
+        </div>
+        <div>
+          <label for="time">Time</label>
+          <input id="time" name="time" type="time" required>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div>
+          <label for="guests">Number of Guests</label>
+          <select id="guests" name="guests" required>
+            <option value="" disabled selected>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8+</option>
+          </select>
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" required>
+        </div>
+      </div>
+      <div>
+        <label for="notes">Special Requests</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="Allergies, high chair, occasion, etc."></textarea>
+      </div>
+      <button class="button" type="submit">Request Booking</button>
+    </form>
+
+    <section>
+      <h2>Special Offers & Events</h2>
+      <p>Student lunch specials available Mon–Fri 11:30am–2:30pm. Ask our staff about seasonal events and chef’s tasting menus.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html">Booking</a>
+      </div>
+      <p class="small">© 2025 La Trobe University Restaurant. Educational project with royalty-free images.</p>
+    </div>
+  </footer>
+</body>
+</html>
